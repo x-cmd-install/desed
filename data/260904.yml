@@ -7,7 +7,7 @@ about:
   head: ef8dc9f
   archived: false
   latestVersion: v1.2.2
-  collectedAt: 2026-09-04T19:56:34Z
+  collectedAt: 2026-09-04T20:43:50Z
 timeline:
   created: 2020-04-20
   lastCommit: 2026-04-07
@@ -83,5 +83,38 @@ total:
   openIssue: 6
   commit: 171
 ---
+path: /home/runner/.x-repo/github.com/SoptikHa2/desed
+collectedAt: 2026-09-04T20:43:51Z
+loc:
+  Rust:
+    code: 1198
+    comments: 112
+    blanks: 102
+    files: 13
+  Sh:
+    code: 59
+    comments: 15
+    blanks: 13
+    files: 3
+  Toml:
+    code: 21
+    comments: 4
+    blanks: 4
+    files: 1
+  Markdown:
+    code: 0
+    comments: 79
+    blanks: 47
+    files: 2
+  Text:
+    code: 0
+    comments: 9
+    blanks: 0
+    files: 2
+total:
+  code: 1278
+  comments: 478
+  blanks: 233
+  files: 21
 ---
 
