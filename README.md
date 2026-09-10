@@ -22,7 +22,6 @@ x install desed
 
 - **Latest**: `v1.2.2` (2024-10-15)
 - **Last commit**: 2026-04-07
-- **Published**: 2024-10-15T10:16:19Z
 
 ## Popularity
 
@@ -57,8 +56,8 @@ Total: **1,278** lines of code across **21** files in the top 5 languages.
 Install metadata for desed lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `desed` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/desed.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/desed.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:30:38Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:06:36Z._

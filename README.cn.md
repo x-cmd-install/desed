@@ -4,7 +4,7 @@
 
 Debugger for Sed: demystify and debug your sed scripts, from comfort of your terminal.
 
-![desed](https://repo.x-cmd.io/desed.svg)
+![desed](https://repo.x-cmd.io/desed.svg?lang=zh)
 
 ## 安装
 
@@ -22,7 +22,6 @@ x install desed
 
 - **最新版本**: `v1.2.2` (2024-10-15)
 - **最近提交**: 2026-04-07
-- **发布时间**: 2024-10-15T10:16:19Z
 
 ## 流行度
 
@@ -61,4 +60,4 @@ desed 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T04:30:38Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T16:06:36Z._
