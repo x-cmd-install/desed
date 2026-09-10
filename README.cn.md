@@ -12,6 +12,18 @@ Debugger for Sed: demystify and debug your sed scripts, from comfort of your ter
 x install desed
 ```
 
+## 代码规模
+
+合计: **1,278** 行代码（覆盖前 5 种语言、共 **21** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Rust | 1,198 | 112 | 102 | 13 |
+| Sh | 59 | 15 | 13 | 3 |
+| Toml | 21 | 4 | 4 | 1 |
+| Markdown | 0 | 79 | 47 | 2 |
+| Text | 0 | 9 | 0 | 2 |
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/SoptikHa2/desed>
@@ -36,20 +48,23 @@ x install desed
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-14 | 0 | 1 | 1 | 0 | 0 | 1 |
 | 360d | 2025-09-15 | 0 | 1 | 1 | 0 | 0 | 1 |
+| last720d | 2024-09-20 | 1 | 8 | 1 | 0 | 1 | 26 |
 
-## 代码规模
+## 发行版状态
 
-合计: **1,278** 行代码（覆盖前 5 种语言、共 **21** 个文件）。
+在 [repology.org](https://repology.org/project/desed) 上共有 **28** 个发行版报告此项目。**23** 个 ✅ 已是最新上游版本，**0** 个 ⚠️ 使用旧版本。
 
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Rust | 1,198 | 112 | 102 | 13 |
-| Sh | 59 | 15 | 13 | 3 |
-| Toml | 21 | 4 | 4 | 1 |
-| Markdown | 0 | 79 | 47 | 2 |
-| Text | 0 | 9 | 0 | 2 |
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Homebrew | `1.2.2` | ✅ latest |
+| Fedora rawhide | `1.2.2` | ✅ latest |
+| Nix unstable | `1.2.2` | ✅ latest |
+| Void | `1.2.2` | ✅ latest |
+| Alpine edge | `1.2.2` | ✅ latest |
 
 ## 改进这些数据
 
@@ -60,4 +75,4 @@ desed 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T16:06:36Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T20:13:00Z._

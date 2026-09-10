@@ -12,6 +12,18 @@ Debugger for Sed: demystify and debug your sed scripts, from comfort of your ter
 x install desed
 ```
 
+## Code insight
+
+Total: **1,278** lines of code across **21** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Rust | 1,198 | 112 | 102 | 13 |
+| Sh | 59 | 15 | 13 | 3 |
+| Toml | 21 | 4 | 4 | 1 |
+| Markdown | 0 | 79 | 47 | 2 |
+| Text | 0 | 9 | 0 | 2 |
+
 ## Source
 
 - **Upstream**: <https://github.com/SoptikHa2/desed>
@@ -36,20 +48,23 @@ x install desed
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-14 | 0 | 1 | 1 | 0 | 0 | 1 |
 | 360d | 2025-09-15 | 0 | 1 | 1 | 0 | 0 | 1 |
+| last720d | 2024-09-20 | 1 | 8 | 1 | 0 | 1 | 26 |
 
-## Code size
+## Distribution status
 
-Total: **1,278** lines of code across **21** files in the top 5 languages.
+Reported by **28** distros on [repology.org](https://repology.org/project/desed). **23** are ✅ on the latest upstream release, **0** are ⚠️ on an older version.
 
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| Rust | 1,198 | 112 | 102 | 13 |
-| Sh | 59 | 15 | 13 | 3 |
-| Toml | 21 | 4 | 4 | 1 |
-| Markdown | 0 | 79 | 47 | 2 |
-| Text | 0 | 9 | 0 | 2 |
+| Distro | Version | Status |
+|--------|---------|--------|
+| Homebrew | `1.2.2` | ✅ latest |
+| Fedora rawhide | `1.2.2` | ✅ latest |
+| Nix unstable | `1.2.2` | ✅ latest |
+| Void | `1.2.2` | ✅ latest |
+| Alpine edge | `1.2.2` | ✅ latest |
 
 ## Improve this data
 
@@ -60,4 +75,4 @@ Install metadata for desed lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T16:06:36Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T20:12:59Z._
