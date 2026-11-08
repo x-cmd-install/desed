@@ -1,25 +1,3 @@
-- repo: nix_stable_24_11
-  srcname: desed
-  visiblename: desed
-  version: 1.2.2
-  origversion: null
-  status: newest
-  summary: 'Debugger for Sed: demystify and debug your sed scripts, from comfort of your terminal'
-  maintainers:
-    - victor@viclab.se
-  licenses:
-    - GPL-3.0-only
-- repo: nix_stable_25_05
-  srcname: desed
-  visiblename: desed
-  version: 1.2.2
-  origversion: null
-  status: newest
-  summary: 'Debugger for Sed: demystify and debug your sed scripts, from comfort of your terminal'
-  maintainers:
-    - victor@viclab.se
-  licenses:
-    - GPL-3.0-only
 - repo: alpine_edge
   subrepo: testing
   srcname: desed
@@ -27,7 +5,7 @@
   visiblename: desed
   version: 1.2.2
   origversion: 1.2.2-r0
-  status: newest
+  status: outdated
   summary: Demystify and debug your sed scripts, from comfort of your terminal
   maintainers:
     - jakub@jirutka.cz
@@ -40,7 +18,7 @@
   visiblename: desed-doc
   version: 1.2.2
   origversion: 1.2.2-r0
-  status: newest
+  status: outdated
   summary: Demystify and debug your sed scripts, from comfort of your terminal (documentation)
   maintainers:
     - jakub@jirutka.cz
@@ -54,7 +32,7 @@
   visiblename: desed
   version: 1.2.2
   origversion: 1.2.2-alt1
-  status: newest
+  status: outdated
   summary: Debugger for Sed
   maintainers:
     - sirius@altlinux.org
@@ -70,7 +48,7 @@
   visiblename: desed
   version: 1.2.2
   origversion: 1.2.2-alt1
-  status: newest
+  status: outdated
   summary: Debugger for Sed
   maintainers:
     - sirius@altlinux.org
@@ -82,8 +60,8 @@
   srcname: desed
   binname: desed
   visiblename: desed
-  version: 1.2.2
-  origversion: 1.2.2-2
+  version: 1.2.3
+  origversion: 1.2.3-1
   status: newest
   summary: Debugger for sed, written in rust. Step through code and observe sed inner state.
   maintainers:
@@ -105,7 +83,7 @@
 - repo: crates_io
   srcname: desed
   visiblename: desed
-  version: 1.2.2
+  version: 1.2.3
   origversion: null
   status: newest
   summary: Sed script debugger. Debug and demystify your sed scripts with TUI debugger.
@@ -119,7 +97,7 @@
   visiblename: rust-desed
   version: 1.2.2
   origversion: 1.2.2-2.fc39
-  status: newest
+  status: outdated
   summary: Sed script debugger
   licenses:
     - GPL-3.0-or-later
@@ -167,7 +145,7 @@
   visiblename: rust-desed
   version: 1.2.2
   origversion: 1.2.2-4.fc40
-  status: newest
+  status: outdated
   summary: Sed script debugger
   licenses:
     - GPL-3.0-or-later
@@ -199,23 +177,7 @@
   visiblename: rust-desed
   version: 1.2.2
   origversion: 1.2.2-6.fc41
-  status: newest
-  summary: Sed script debugger
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - Unspecified
-- repo: fedora_42
-  subrepo: updates
-  srcname: rust-desed
-  binnames:
-    - desed
-    - rust-desed-debuginfo
-    - rust-desed-debugsource
-  visiblename: rust-desed
-  version: 1.2.2
-  origversion: 1.2.2-6.fc42
-  status: newest
+  status: outdated
   summary: Sed script debugger
   licenses:
     - GPL-3.0-or-later
@@ -231,7 +193,23 @@
   visiblename: rust-desed
   version: 1.2.2
   origversion: 1.2.2-5.fc42
-  status: newest
+  status: outdated
+  summary: Sed script debugger
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: updates
+  srcname: rust-desed
+  binnames:
+    - desed
+    - rust-desed-debuginfo
+    - rust-desed-debugsource
+  visiblename: rust-desed
+  version: 1.2.2
+  origversion: 1.2.2-6.fc42
+  status: outdated
   summary: Sed script debugger
   licenses:
     - GPL-3.0-or-later
@@ -247,7 +225,7 @@
   visiblename: rust-desed
   version: 1.2.2
   origversion: 1.2.2-7.fc43
-  status: newest
+  status: outdated
   summary: Sed script debugger
   licenses:
     - GPL-3.0-or-later
@@ -263,7 +241,7 @@
   visiblename: rust-desed
   version: 1.2.2
   origversion: 1.2.2-8.fc44
-  status: newest
+  status: outdated
   summary: Sed script debugger
   licenses:
     - GPL-3.0-or-later
@@ -279,7 +257,7 @@
   visiblename: rust-desed
   version: 1.2.2
   origversion: 1.2.2-9.fc45
-  status: newest
+  status: outdated
   summary: Sed script debugger
   licenses:
     - GPL-3.0-or-later
@@ -291,7 +269,7 @@
   visiblename: devel/desed
   version: 1.2.2
   origversion: 1.2.2_19
-  status: newest
+  status: outdated
   summary: Demystify and debug sed scripts from the comfort of your terminal
   maintainers:
     - yuri@freebsd.org
@@ -300,7 +278,7 @@
 - repo: homebrew
   srcname: desed
   visiblename: desed
-  version: 1.2.2
+  version: 1.2.3
   origversion: null
   status: newest
   summary: Debugger for Sed
@@ -311,12 +289,34 @@
   origversion: null
   status: rolling
   summary: Debugger for Sed
+- repo: nix_stable_24_11
+  srcname: desed
+  visiblename: desed
+  version: 1.2.2
+  origversion: null
+  status: outdated
+  summary: 'Debugger for Sed: demystify and debug your sed scripts, from comfort of your terminal'
+  maintainers:
+    - victor@viclab.se
+  licenses:
+    - GPL-3.0-only
+- repo: nix_stable_25_05
+  srcname: desed
+  visiblename: desed
+  version: 1.2.2
+  origversion: null
+  status: outdated
+  summary: 'Debugger for Sed: demystify and debug your sed scripts, from comfort of your terminal'
+  maintainers:
+    - victor@viclab.se
+  licenses:
+    - GPL-3.0-only
 - repo: nix_stable_25_11
   srcname: desed
   visiblename: desed
   version: 1.2.2
   origversion: null
-  status: newest
+  status: outdated
   summary: 'Debugger for Sed: demystify and debug your sed scripts, from comfort of your terminal'
   maintainers:
     - victor@viclab.se
@@ -327,7 +327,7 @@
   visiblename: desed
   version: 1.2.2
   origversion: null
-  status: newest
+  status: outdated
   summary: 'Debugger for Sed: demystify and debug your sed scripts, from comfort of your terminal'
   maintainers:
     - victor@viclab.se
@@ -338,7 +338,7 @@
   visiblename: desed
   version: 1.2.2
   origversion: null
-  status: newest
+  status: outdated
   summary: 'Debugger for Sed: demystify and debug your sed scripts, from comfort of your terminal'
   maintainers:
     - victor@viclab.se
@@ -348,7 +348,7 @@
   srcname: desed
   binname: desed
   visiblename: desed
-  version: 1.2.2
+  version: 1.2.3
   origversion: null
   status: newest
   summary: Demystifies and debugs your sed scripts
@@ -361,7 +361,7 @@
   visiblename: desed
   version: 1.2.2
   origversion: 1.2.2_1
-  status: newest
+  status: outdated
   summary: Demystify and debug sed scripts
   maintainers:
     - abenson+void@gmail.com

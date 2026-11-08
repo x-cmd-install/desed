@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/SoptikHa2/desed/releases/179978409",
-  "assets_url": "https://api.github.com/repos/SoptikHa2/desed/releases/179978409/assets",
-  "upload_url": "https://uploads.github.com/repos/SoptikHa2/desed/releases/179978409/assets{?name,label}",
-  "html_url": "https://github.com/SoptikHa2/desed/releases/tag/v1.2.2",
-  "id": 179978409,
+  "url": "https://api.github.com/repos/SoptikHa2/desed/releases/437494157",
+  "assets_url": "https://api.github.com/repos/SoptikHa2/desed/releases/437494157/assets",
+  "upload_url": "https://uploads.github.com/repos/SoptikHa2/desed/releases/437494157/assets{?name,label}",
+  "html_url": "https://github.com/SoptikHa2/desed/releases/tag/v1.2.3",
+  "id": 437494157,
   "author": {
     "login": "SoptikHa2",
     "id": 24734779,
@@ -25,21 +25,21 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOD1N37c4KukCp",
-  "tag_name": "v1.2.2",
+  "node_id": "RE_kwDOD1N37c4aE6GN",
+  "tag_name": "v1.2.3",
   "target_commitish": "master",
-  "name": "v1.2.2",
+  "name": "v1.2.3",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2024-10-15T10:14:28Z",
-  "updated_at": "2026-11-06T21:56:07Z",
-  "published_at": "2024-10-15T10:16:19Z",
+  "created_at": "2026-11-07T10:10:40Z",
+  "updated_at": "2026-11-07T10:16:18Z",
+  "published_at": "2026-11-07T10:16:18Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/SoptikHa2/desed/releases/assets/718665425",
-      "id": 718665425,
-      "node_id": "RA_kwDOD1N37c4q1fbR",
+      "url": "https://api.github.com/repos/SoptikHa2/desed/releases/assets/720335172",
+      "id": 720335172,
+      "node_id": "RA_kwDOD1N37c4q73FE",
       "name": "desed-x86_64-unknown-linux-gnu",
       "label": null,
       "uploader": {
@@ -65,17 +65,17 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 1367744,
-      "digest": "sha256:c209735a0da8c5cb1606c7278e2cdba80ff9d7c53a4625ff3da9ef55e836c011",
-      "download_count": 0,
-      "created_at": "2026-11-06T21:44:20Z",
-      "updated_at": "2026-11-06T21:44:23Z",
-      "browser_download_url": "https://github.com/SoptikHa2/desed/releases/download/v1.2.2/desed-x86_64-unknown-linux-gnu"
+      "size": 1322448,
+      "digest": "sha256:f10aafe5c25249fc2c8a5bc757b60deb51ce476ac3258960be6161bda2bf4251",
+      "download_count": 2,
+      "created_at": "2026-11-07T10:16:11Z",
+      "updated_at": "2026-11-07T10:16:13Z",
+      "browser_download_url": "https://github.com/SoptikHa2/desed/releases/download/v1.2.3/desed-x86_64-unknown-linux-gnu"
     },
     {
-      "url": "https://api.github.com/repos/SoptikHa2/desed/releases/assets/718695611",
-      "id": 718695611,
-      "node_id": "RA_kwDOD1N37c4q1my7",
+      "url": "https://api.github.com/repos/SoptikHa2/desed/releases/assets/720335214",
+      "id": 720335214,
+      "node_id": "RA_kwDOD1N37c4q73Fu",
       "name": "desed-x86_64-unknown-linux-musl",
       "label": null,
       "uploader": {
@@ -101,28 +101,16 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 1463040,
-      "digest": "sha256:997f20d1ea0c5dfb5ab5a6c3c243200c03a532399c8268326a034c9df106df71",
-      "download_count": 0,
-      "created_at": "2026-11-06T21:56:04Z",
-      "updated_at": "2026-11-06T21:56:07Z",
-      "browser_download_url": "https://github.com/SoptikHa2/desed/releases/download/v1.2.2/desed-x86_64-unknown-linux-musl"
+      "size": 1418120,
+      "digest": "sha256:0ea0b3f0ca665d9862681845f7b920dcf05928dfab04b9abff66e57ce29f734e",
+      "download_count": 3,
+      "created_at": "2026-11-07T10:16:13Z",
+      "updated_at": "2026-11-07T10:16:13Z",
+      "browser_download_url": "https://github.com/SoptikHa2/desed/releases/download/v1.2.3/desed-x86_64-unknown-linux-musl"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/SoptikHa2/desed/tarball/v1.2.2",
-  "zipball_url": "https://api.github.com/repos/SoptikHa2/desed/zipball/v1.2.2",
-  "body": "## What's Changed\r\n* Commit `Cargo.lock` file by @a-kenji in https://github.com/SoptikHa2/desed/pull/29\r\n* Update dependencies by @decathorpe in https://github.com/SoptikHa2/desed/pull/30\r\n* Update version number to v1.2.2 by @vinylen in https://github.com/SoptikHa2/desed/pull/32\r\n\r\n## New Contributors\r\n* @a-kenji made their first contribution in https://github.com/SoptikHa2/desed/pull/29\r\n* @decathorpe made their first contribution in https://github.com/SoptikHa2/desed/pull/30\r\n* @vinylen made their first contribution in https://github.com/SoptikHa2/desed/pull/32\r\n\r\n**Full Changelog**: https://github.com/SoptikHa2/desed/compare/v1.2.1...v1.2.2",
-  "reactions": {
-    "url": "https://api.github.com/repos/SoptikHa2/desed/releases/179978409/reactions",
-    "total_count": 1,
-    "+1": 0,
-    "-1": 0,
-    "laugh": 0,
-    "hooray": 0,
-    "confused": 0,
-    "heart": 0,
-    "rocket": 1,
-    "eyes": 0
-  },
-  "mentions_count": 3
+  "tarball_url": "https://api.github.com/repos/SoptikHa2/desed/tarball/v1.2.3",
+  "zipball_url": "https://api.github.com/repos/SoptikHa2/desed/zipball/v1.2.3",
+  "body": "## What's Changed\r\nTl;dr: minor fixes; mac os crash and general UX\r\n* refactor(tui): bump ratatui and simplify the usage by @orhun in https://github.com/SoptikHa2/desed/pull/33\r\n* feat(ci): add build, test and clippy by @SoptikHa2 in https://github.com/SoptikHa2/desed/pull/34\r\n* Update inotify dependency from 0.10.0 to 0.11.0 by @musicinmybrain in https://github.com/SoptikHa2/desed/pull/35\r\n* Bump ratatui dependency to 0.29 by @LecrisUT in https://github.com/SoptikHa2/desed/pull/36\r\n* Fix typos by @kianmeng in https://github.com/SoptikHa2/desed/pull/37\r\n* docs(readme): contributing and LLM notice by @SoptikHa2 in https://github.com/SoptikHa2/desed/pull/38\r\n* fix: crash on mac os by @SoptikHa2 in https://github.com/SoptikHa2/desed/pull/41\r\n* deps: update by @SoptikHa2 in https://github.com/SoptikHa2/desed/pull/42\r\n* version 1.2.3 by @SoptikHa2 in https://github.com/SoptikHa2/desed/pull/43\r\n* feat: use alternate screen buffer to not clear screen on exit by @SoptikHa2 in https://github.com/SoptikHa2/desed/pull/44\r\n\r\n## New Contributors\r\n* @orhun made their first contribution in https://github.com/SoptikHa2/desed/pull/33\r\n* @musicinmybrain made their first contribution in https://github.com/SoptikHa2/desed/pull/35\r\n* @LecrisUT made their first contribution in https://github.com/SoptikHa2/desed/pull/36\r\n* @kianmeng made their first contribution in https://github.com/SoptikHa2/desed/pull/37\r\n\r\n**Full Changelog**: https://github.com/SoptikHa2/desed/compare/v1.2.2...v1.2.3",
+  "mentions_count": 5
 }
