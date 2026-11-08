@@ -14,11 +14,11 @@ x install desed
 
 ## Code insight
 
-Total: **1,281** lines of code across **21** files in the top 5 languages.
+Total: **1,284** lines of code across **21** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 1,201 | 112 | 104 | 13 |
+| Rust | 1,204 | 108 | 102 | 13 |
 | Sh | 59 | 15 | 13 | 3 |
 | Toml | 21 | 4 | 4 | 1 |
 | Markdown | 0 | 79 | 47 | 2 |
@@ -32,47 +32,47 @@ Total: **1,281** lines of code across **21** files in the top 5 languages.
 
 ## Release
 
-- **Latest**: `v1.2.2` (2024-10-15)
-- **Last commit**: 2026-11-06
+- **Latest**: `v1.2.3` (2026-11-07)
+- **Last commit**: 2026-11-07
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 1,220 · **Forks**: 26 · **Open issues**: 20 · **Contributors**: 14
+- **Stars**: 1,221 · **Forks**: 26 · **Open issues**: 20 · **Contributors**: 14
 
 ## Totals (cumulative)
 
-- **Releases**: 8 · **Merged PRs**: 19 · **Open PRs**: 1 · **Closed issues**: 15 · **Open issues**: 5 · **Commits**: 177
+- **Releases**: 9 · **Merged PRs**: 21 · **Open PRs**: 1 · **Closed issues**: 15 · **Open issues**: 5 · **Commits**: 181
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-08 | 0 | 2 | 0 | 1 | 0 | 4 |
-| last60d | 2026-09-08 | 0 | 2 | 0 | 1 | 0 | 4 |
-| 90d | 2026-08-09 | 0 | 2 | 0 | 1 | 0 | 4 |
-| last180d | 2026-05-11 | 0 | 2 | 0 | 1 | 0 | 4 |
-| 360d | 2025-11-12 | 0 | 3 | 1 | 1 | 0 | 5 |
-| last720d | 2024-11-17 | 0 | 6 | 1 | 1 | 0 | 18 |
+| 30d | 2026-10-09 | 1 | 4 | 0 | 1 | 0 | 6 |
+| last60d | 2026-09-09 | 1 | 4 | 0 | 1 | 0 | 6 |
+| 90d | 2026-08-10 | 1 | 4 | 0 | 1 | 0 | 6 |
+| last180d | 2026-05-12 | 1 | 4 | 0 | 1 | 0 | 6 |
+| 360d | 2025-11-13 | 1 | 5 | 1 | 1 | 0 | 7 |
+| last720d | 2024-11-18 | 1 | 8 | 1 | 1 | 0 | 22 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [desed-x86_64-unknown-linux-gnu](https://github.com/SoptikHa2/desed/releases/download/v1.2.2/desed-x86_64-unknown-linux-gnu) | 1.3 MiB | `native/linux/x64/glibc` |
-| [desed-x86_64-unknown-linux-musl](https://github.com/SoptikHa2/desed/releases/download/v1.2.2/desed-x86_64-unknown-linux-musl) | 1.4 MiB | `native/linux/x64/musl` |
+| [desed-x86_64-unknown-linux-gnu](https://github.com/SoptikHa2/desed/releases/download/v1.2.3/desed-x86_64-unknown-linux-gnu) | 1.3 MiB | `native/linux/x64/glibc` |
+| [desed-x86_64-unknown-linux-musl](https://github.com/SoptikHa2/desed/releases/download/v1.2.3/desed-x86_64-unknown-linux-musl) | 1.4 MiB | `native/linux/x64/musl` |
 
 ## Distribution status
 
-Reported by **28** distros on [repology.org](https://repology.org/project/desed). **23** are ✅ on the latest upstream release, **0** are ⚠️ on an older version.
+Reported by **28** distros on [repology.org](https://repology.org/project/desed). **4** are ✅ on the latest upstream release, **19** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Homebrew | `1.2.2` | ✅ latest |
-| Fedora rawhide | `1.2.2` | ✅ latest |
-| Nix unstable | `1.2.2` | ✅ latest |
-| Void | `1.2.2` | ✅ latest |
-| Alpine edge | `1.2.2` | ✅ latest |
+| Homebrew | `1.2.3` | ✅ latest |
+| Fedora rawhide | `1.2.2` | ⚠️ outdated |
+| Nix unstable | `1.2.2` | ⚠️ outdated |
+| Void | `1.2.2` | ⚠️ outdated |
+| Alpine edge | `1.2.2` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -83,4 +83,4 @@ Install metadata for desed lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261107.yml` · 2026-11-07T05:49:14Z._
+_Snapshot: `data/card/261108.yml` · 2026-11-08T05:54:28Z._
