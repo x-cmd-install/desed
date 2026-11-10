@@ -152,6 +152,22 @@
   categories:
     - Unspecified
 - repo: fedora_41
+  subrepo: updates
+  srcname: rust-desed
+  binnames:
+    - desed
+    - rust-desed-debuginfo
+    - rust-desed-debugsource
+  visiblename: rust-desed
+  version: 1.2.2
+  origversion: 1.2.2-6.fc41
+  status: outdated
+  summary: Sed script debugger
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Unspecified
+- repo: fedora_41
   subrepo: release
   srcname: rust-desed
   binnames:
@@ -167,7 +183,7 @@
     - GPL-3.0-or-later
   categories:
     - Unspecified
-- repo: fedora_41
+- repo: fedora_42
   subrepo: updates
   srcname: rust-desed
   binnames:
@@ -176,7 +192,7 @@
     - rust-desed-debugsource
   visiblename: rust-desed
   version: 1.2.2
-  origversion: 1.2.2-6.fc41
+  origversion: 1.2.2-6.fc42
   status: outdated
   summary: Sed script debugger
   licenses:
@@ -193,22 +209,6 @@
   visiblename: rust-desed
   version: 1.2.2
   origversion: 1.2.2-5.fc42
-  status: outdated
-  summary: Sed script debugger
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - Unspecified
-- repo: fedora_42
-  subrepo: updates
-  srcname: rust-desed
-  binnames:
-    - desed
-    - rust-desed-debuginfo
-    - rust-desed-debugsource
-  visiblename: rust-desed
-  version: 1.2.2
-  origversion: 1.2.2-6.fc42
   status: outdated
   summary: Sed script debugger
   licenses:
@@ -255,9 +255,9 @@
     - rust-desed-debuginfo
     - rust-desed-debugsource
   visiblename: rust-desed
-  version: 1.2.2
-  origversion: 1.2.2-9.fc45
-  status: outdated
+  version: 1.2.3
+  origversion: 1.2.3-1.fc46
+  status: newest
   summary: Sed script debugger
   licenses:
     - GPL-3.0-or-later
@@ -267,9 +267,9 @@
   srcname: devel/desed
   binname: desed
   visiblename: devel/desed
-  version: 1.2.2
-  origversion: 1.2.2_19
-  status: outdated
+  version: 1.2.3
+  origversion: null
+  status: newest
   summary: Demystify and debug sed scripts from the comfort of your terminal
   maintainers:
     - yuri@freebsd.org
@@ -359,9 +359,9 @@
   srcname: desed
   binname: desed
   visiblename: desed
-  version: 1.2.2
-  origversion: 1.2.2_1
-  status: outdated
+  version: 1.2.3
+  origversion: 1.2.3_1
+  status: newest
   summary: Demystify and debug sed scripts
   maintainers:
     - abenson+void@gmail.com

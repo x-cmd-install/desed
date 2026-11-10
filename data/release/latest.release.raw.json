@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 1322448,
       "digest": "sha256:f10aafe5c25249fc2c8a5bc757b60deb51ce476ac3258960be6161bda2bf4251",
-      "download_count": 2,
+      "download_count": 5,
       "created_at": "2026-11-07T10:16:11Z",
       "updated_at": "2026-11-07T10:16:13Z",
       "browser_download_url": "https://github.com/SoptikHa2/desed/releases/download/v1.2.3/desed-x86_64-unknown-linux-gnu"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 1418120,
       "digest": "sha256:0ea0b3f0ca665d9862681845f7b920dcf05928dfab04b9abff66e57ce29f734e",
-      "download_count": 3,
+      "download_count": 10,
       "created_at": "2026-11-07T10:16:13Z",
       "updated_at": "2026-11-07T10:16:13Z",
       "browser_download_url": "https://github.com/SoptikHa2/desed/releases/download/v1.2.3/desed-x86_64-unknown-linux-musl"
