@@ -11,17 +11,6 @@
     - jakub@jirutka.cz
   licenses:
     - GPL-3.0-or-later
-- repo: nix_stable_25_05
-  srcname: desed
-  visiblename: desed
-  version: 1.2.2
-  origversion: null
-  status: outdated
-  summary: 'Debugger for Sed: demystify and debug your sed scripts, from comfort of your terminal'
-  maintainers:
-    - victor@viclab.se
-  licenses:
-    - GPL-3.0-only
 - repo: alpine_edge
   subrepo: testing
   srcname: desed
@@ -41,9 +30,9 @@
     - desed
     - desed-debuginfo
   visiblename: desed
-  version: 1.2.2
-  origversion: 1.2.2-alt1
-  status: outdated
+  version: 1.2.3
+  origversion: 1.2.3-alt1
+  status: newest
   summary: Debugger for Sed
   maintainers:
     - sirius@altlinux.org
@@ -51,17 +40,6 @@
     - GPL-3.0-or-later
   categories:
     - Development/Other
-- repo: nix_stable_24_11
-  srcname: desed
-  visiblename: desed
-  version: 1.2.2
-  origversion: null
-  status: outdated
-  summary: 'Debugger for Sed: demystify and debug your sed scripts, from comfort of your terminal'
-  maintainers:
-    - victor@viclab.se
-  licenses:
-    - GPL-3.0-only
 - repo: altsisyphus
   srcname: desed
   binnames:
@@ -110,22 +88,6 @@
   status: newest
   summary: Sed script debugger. Debug and demystify your sed scripts with TUI debugger.
 - repo: fedora_39
-  subrepo: release
-  srcname: rust-desed
-  binnames:
-    - desed
-    - rust-desed-debuginfo
-    - rust-desed-debugsource
-  visiblename: rust-desed
-  version: 1.2.1
-  origversion: 1.2.1-2.fc39
-  status: legacy
-  summary: Sed script debugger
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - Unspecified
-- repo: fedora_39
   subrepo: updates
   srcname: rust-desed
   binnames:
@@ -141,17 +103,17 @@
     - GPL-3.0-or-later
   categories:
     - Unspecified
-- repo: fedora_40
-  subrepo: updates
+- repo: fedora_39
+  subrepo: release
   srcname: rust-desed
   binnames:
     - desed
     - rust-desed-debuginfo
     - rust-desed-debugsource
   visiblename: rust-desed
-  version: 1.2.2
-  origversion: 1.2.2-4.fc40
-  status: outdated
+  version: 1.2.1
+  origversion: 1.2.1-2.fc39
+  status: legacy
   summary: Sed script debugger
   licenses:
     - GPL-3.0-or-later
@@ -173,7 +135,7 @@
     - GPL-3.0-or-later
   categories:
     - Unspecified
-- repo: fedora_41
+- repo: fedora_40
   subrepo: updates
   srcname: rust-desed
   binnames:
@@ -182,7 +144,7 @@
     - rust-desed-debugsource
   visiblename: rust-desed
   version: 1.2.2
-  origversion: 1.2.2-6.fc41
+  origversion: 1.2.2-4.fc40
   status: outdated
   summary: Sed script debugger
   licenses:
@@ -200,6 +162,22 @@
   version: 1.2.1
   origversion: 1.2.1-5.fc41
   status: legacy
+  summary: Sed script debugger
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: updates
+  srcname: rust-desed
+  binnames:
+    - desed
+    - rust-desed-debuginfo
+    - rust-desed-debugsource
+  visiblename: rust-desed
+  version: 1.2.2
+  origversion: 1.2.2-6.fc41
+  status: outdated
   summary: Sed script debugger
   licenses:
     - GPL-3.0-or-later
@@ -375,6 +353,28 @@
   origversion: null
   status: rolling
   summary: Debugger for Sed
+- repo: nix_stable_24_11
+  srcname: desed
+  visiblename: desed
+  version: 1.2.2
+  origversion: null
+  status: outdated
+  summary: 'Debugger for Sed: demystify and debug your sed scripts, from comfort of your terminal'
+  maintainers:
+    - victor@viclab.se
+  licenses:
+    - GPL-3.0-only
+- repo: nix_stable_25_05
+  srcname: desed
+  visiblename: desed
+  version: 1.2.2
+  origversion: null
+  status: outdated
+  summary: 'Debugger for Sed: demystify and debug your sed scripts, from comfort of your terminal'
+  maintainers:
+    - victor@viclab.se
+  licenses:
+    - GPL-3.0-only
 - repo: nix_stable_25_11
   srcname: desed
   visiblename: desed
