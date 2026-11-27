@@ -48,12 +48,12 @@ Total: **1,284** lines of code across **21** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 1 | 4 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-27 | 1 | 4 | 0 | 1 | 0 | 0 |
-| 90d | 2026-08-28 | 1 | 4 | 0 | 1 | 0 | 0 |
-| last180d | 2026-05-30 | 1 | 4 | 0 | 1 | 0 | 0 |
-| 360d | 2025-12-01 | 1 | 5 | 1 | 1 | 0 | 0 |
-| last720d | 2024-12-06 | 1 | 8 | 1 | 1 | 0 | 22 |
+| 30d | 2026-10-28 | 1 | 4 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-28 | 1 | 4 | 0 | 1 | 0 | 0 |
+| 90d | 2026-08-29 | 1 | 4 | 0 | 1 | 0 | 0 |
+| last180d | 2026-05-31 | 1 | 4 | 0 | 1 | 0 | 0 |
+| 360d | 2025-12-02 | 1 | 5 | 1 | 1 | 0 | 0 |
+| last720d | 2024-12-07 | 1 | 8 | 1 | 1 | 0 | 22 |
 
 ## Release assets
 
@@ -61,18 +61,6 @@ Total: **1,284** lines of code across **21** files in the top 5 languages.
 |-------|-----:|--------|
 | [desed-x86_64-unknown-linux-gnu](https://github.com/SoptikHa2/desed/releases/download/v1.2.3/desed-x86_64-unknown-linux-gnu) | 1.3 MiB | `native/linux/x64/glibc` |
 | [desed-x86_64-unknown-linux-musl](https://github.com/SoptikHa2/desed/releases/download/v1.2.3/desed-x86_64-unknown-linux-musl) | 1.4 MiB | `native/linux/x64/musl` |
-
-## Distribution status
-
-Reported by **32** distros on [repology.org](https://repology.org/project/desed). **13** are ✅ on the latest upstream release, **11** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Homebrew | `1.2.3` | ✅ latest |
-| Fedora rawhide | `1.2.3` | ✅ latest |
-| Nix unstable | `1.2.3` | ✅ latest |
-| Void | `1.2.3` | ✅ latest |
-| Alpine edge | `1.2.2` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -83,4 +71,4 @@ Install metadata for desed lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261126.yml` · 2026-11-26T08:15:43Z._
+_Snapshot: `data/card/261127.yml` · 2026-11-27T08:14:10Z._
